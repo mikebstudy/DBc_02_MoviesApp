@@ -10,6 +10,8 @@
 <body>
     {% block content %}
     <h1>About Movies</h1>
+    {% load static %}
+    <img style="width:100px" src="{% static 'movies/photo.png' %}" alt="Picture">
     {% endblock %}
 </body>
 </html>
